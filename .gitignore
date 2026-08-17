@@ -4,3 +4,27 @@ __pycache__/
 .env
 *.db
 *.sqlite3
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+*.env
+
+# Database
+*.sqlite3
+*.db
+
+# Node
+node_modules/
+dist/
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
