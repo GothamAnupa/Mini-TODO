@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Tasks</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            ✓ My Tasks
+        </div>
+
+        <div class="header-icons">
+            <button class="icon-button">🔔</button>
+            <button class="icon-button">👤</button>
+        </div>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Greeting -->
+        <section class="welcome">
+
+            <h1>Good morning 👋</h1>
+
+            <p>
+                Here's what you need to get done.
+            </p>
+
+        </section>
+
+
+        <!-- Add Task -->
+        <section class="add-task">
+
+            <input
+                type="text"
+                id="taskTitle"
+                placeholder="Add a new task..."
+            >
+
+            <button id="addTaskButton">
+                Add
+            </button>
+
+        </section>
+
+
+        <!-- Today's Tasks -->
+        <section class="tasks-section">
+
+            <h2>Today</h2>
+
+            <div id="taskList">
+
+                <!-- Tasks will be added here using JavaScript -->
+
+            </div>
+
+        </section>
+
+
+        <!-- Upcoming Tasks -->
+        <section class="tasks-section">
+
+            <h2>Upcoming</h2>
+
+            <div id="upcomingTaskList">
+
+                <!-- Upcoming tasks will be added here -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
